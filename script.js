@@ -58,11 +58,10 @@ function isPalindrome(str){
 function Person(name, age) {
     this.name = name;
     this.age = age;
-
-    this.printName = function() {
-        console.log(this.name);
-      };
 }
+Person.prototype.printName = function() {
+    console.log(this.name);
+};
 //Function that is capable of receiving an instance of the Person Class and print into the console it's age.
 function printOutPersonAge(student){
     console.log(student.age);
