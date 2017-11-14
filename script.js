@@ -17,6 +17,7 @@ function filterNegativeNumbers(numbers){
     return filterArray;
 }
 
+//Functional function that is capable of filtering out numbers less than 0 from an array of numbers.
 function funtionalFilterNegativeNumbers(numbers){
     return numbers.filter(checkNumber);
 }
@@ -33,7 +34,7 @@ function mapNumbersIntoStrings(numbers){
     }
     return numberStrings;
 }
-
+//Functional function that is capable of maping an array of numbers into strings. 
 function functionalMapNumbersIntoStrings(numbers){
     return numbers.map(String);
 }
@@ -45,9 +46,10 @@ function printType(value){
 
 //Function that is capable of identify if the passed string is a palindrome or not. It should return a boolean.
 function isPalindrome(str){
-    var len = str.length;
+    var strAux = str.toLowerCase();
+    var len = strAux.length;
     for ( var i = 0; i < Math.floor(len/2); i++ ) {
-        if (str[i] !== str[len - 1 - i]) {
+        if (strAux[i] !== strAux[len - 1 - i]) {
             return false;
         }
     }
@@ -67,7 +69,8 @@ function printOutPersonAge(student){
     console.log(student.age);
 }
 
-
 const student = new Person('John', 25);
 student.printName(); // "John"
 printOutPersonAge(student);
+
+
