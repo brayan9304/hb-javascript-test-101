@@ -1,0 +1,275 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <title>Code coverage report for script.js</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="prettify.css" />
+    <link rel="stylesheet" href="base.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style type='text/css'>
+        .coverage-summary .sorter {
+            background-image: url(sort-arrow-sprite.png);
+        }
+    </style>
+</head>
+<body>
+<div class='wrapper'>
+  <div class='pad1'>
+    <h1>
+      <a href="index.html">All files</a> script.js
+    </h1>
+    <div class='clearfix'>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">19.35% </span>
+        <span class="quiet">Statements</span>
+        <span class='fraction'>6/31</span>
+      </div>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">0% </span>
+        <span class="quiet">Branches</span>
+        <span class='fraction'>0/4</span>
+      </div>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">9.09% </span>
+        <span class="quiet">Functions</span>
+        <span class='fraction'>1/11</span>
+      </div>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">13.79% </span>
+        <span class="quiet">Lines</span>
+        <span class='fraction'>4/29</span>
+      </div>
+    </div>
+  </div>
+  <div class='status-line low'></div>
+<pre><table class="coverage">
+<tr><td class="line-count quiet">1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49
+50
+51
+52
+53
+54
+55
+56
+57
+58
+59
+60
+61
+62
+63
+64
+65
+66
+67
+68
+69
+70
+71</td><td class="line-coverage quiet"><span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span></td><td class="text"><pre class="prettyprint lang-js">//Function that is capable of generate a random RGB color object.
+export function generateRandomColor(){
+    var o = Math.round, r = Math.random, s = 255;
+    var rgb={r:o(r()*s), g:o(r()*s), b:o(r()*s) };
+    return rgb;
+}
+&nbsp;
+//Function that is capable of filtering out numbers less than 0 from an array of numbers.
+export function <span class="fstat-no" title="function not covered" >filterNegativeNumbers(</span>numbers){
+    var len = <span class="cstat-no" title="statement not covered" >numbers.length;</span>
+    var filterArray= <span class="cstat-no" title="statement not covered" >[];</span>
+<span class="cstat-no" title="statement not covered" >    for (var i = 0; i &lt; len; i++) {</span>
+<span class="cstat-no" title="statement not covered" >        if(numbers[i] &gt;= 0){</span>
+<span class="cstat-no" title="statement not covered" >            filterArray.push(numbers[i]);</span>
+        }
+    }
+<span class="cstat-no" title="statement not covered" >    return filterArray;</span>
+}
+&nbsp;
+//Functional function that is capable of filtering out numbers less than 0 from an array of numbers.
+export function <span class="fstat-no" title="function not covered" >functionalFilterNegativeNumbers(</span>numbers){
+<span class="cstat-no" title="statement not covered" >    return numbers.filter(checkNumber);</span>
+}
+function <span class="fstat-no" title="function not covered" >checkNumber(</span>number) {
+<span class="cstat-no" title="statement not covered" >    return number &gt;= 0;</span>
+}
+&nbsp;
+//Function that is capable of maping an array of numbers into strings. 
+export function <span class="fstat-no" title="function not covered" >mapNumbersIntoStrings(</span>numbers){
+    var len = <span class="cstat-no" title="statement not covered" >numbers.length;</span>
+    var numberStrings= <span class="cstat-no" title="statement not covered" >[];</span>
+<span class="cstat-no" title="statement not covered" >    for (var i = 0; i &lt; len; i++) {</span>
+<span class="cstat-no" title="statement not covered" >        numberStrings.push(numbers[i].toString());</span>
+    }
+<span class="cstat-no" title="statement not covered" >    return numberStrings;</span>
+}
+//Functional function that is capable of maping an array of numbers into strings. 
+export function <span class="fstat-no" title="function not covered" >functionalMapNumbersIntoStrings(</span>numbers){
+<span class="cstat-no" title="statement not covered" >    return numbers.map(String);</span>
+}
+&nbsp;
+//Function that is capable of printing into the console the type of the passed variable.
+export function <span class="fstat-no" title="function not covered" >printType(</span>value){
+<span class="cstat-no" title="statement not covered" >    console.log(typeof value);</span>
+}
+&nbsp;
+//Function that is capable of identify if the passed string is a palindrome or not. It should return a boolean.
+export function <span class="fstat-no" title="function not covered" >isPalindrome(</span>str){
+    var strAux = <span class="cstat-no" title="statement not covered" >str.toLowerCase();</span>
+    var len = <span class="cstat-no" title="statement not covered" >strAux.length;</span>
+<span class="cstat-no" title="statement not covered" >    for ( var i = 0; i &lt; Math.floor(len/2); i++ ) {</span>
+<span class="cstat-no" title="statement not covered" >        if (strAux[i] !== strAux[len - 1 - i]) {</span>
+<span class="cstat-no" title="statement not covered" >            return false;</span>
+        }
+    }
+<span class="cstat-no" title="statement not covered" >    return true;</span>
+}
+&nbsp;
+//Class in Javascript that represents a person capable of having "name" and "age" as instance variables, and a method that prints out the name into the console.
+export function <span class="fstat-no" title="function not covered" >Person(</span>name, age) {
+<span class="cstat-no" title="statement not covered" >    this.name = name;</span>
+<span class="cstat-no" title="statement not covered" >    this.age = age;</span>
+}
+Person.prototype.printName = <span class="fstat-no" title="function not covered" >fu</span>nction() {
+<span class="cstat-no" title="statement not covered" >    console.log(this.name);</span>
+};
+//Function that is capable of receiving an instance of the Person Class and print into the console it's age.
+export function <span class="fstat-no" title="function not covered" >printOutPersonAge(</span>student){
+<span class="cstat-no" title="statement not covered" >    console.log(student.age);</span>
+}
+&nbsp;</pre></td></tr>
+</table></pre>
+<div class='push'></div><!-- for sticky footer -->
+</div><!-- /wrapper -->
+<div class='footer quiet pad2 space-top1 center small'>
+  Code coverage
+  generated by <a href="https://istanbul.js.org/" target="_blank">istanbul</a> at Wed Nov 15 2017 11:20:34 GMT-0500 (EST)
+</div>
+</div>
+<script src="prettify.js"></script>
+<script>
+window.onload = function () {
+        if (typeof prettyPrint === 'function') {
+            prettyPrint();
+        }
+};
+</script>
+<script src="sorter.js"></script>
+</body>
+</html>
