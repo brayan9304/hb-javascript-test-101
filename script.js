@@ -1,5 +1,5 @@
 //Function that is capable of generate a random RGB color object.
-export function generateRandomNumber(){
+export function generateRandomColor(){
     var o = Math.round, r = Math.random, s = 255;
     var rgb={r:o(r()*s), g:o(r()*s), b:o(r()*s) };
     return rgb;
@@ -18,7 +18,7 @@ export function filterNegativeNumbers(numbers){
 }
 
 //Functional function that is capable of filtering out numbers less than 0 from an array of numbers.
-export function funtionalFilterNegativeNumbers(numbers){
+export function functionalFilterNegativeNumbers(numbers){
     return numbers.filter(checkNumber);
 }
 function checkNumber(number) {
